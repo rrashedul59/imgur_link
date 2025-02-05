@@ -1,6 +1,6 @@
 {
     "name": "imgur-link",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A simple Node.js module for uploading images to Imgur",
     "main": "index.js",
     "scripts": {
