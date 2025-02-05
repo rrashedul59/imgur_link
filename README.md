@@ -2,9 +2,9 @@ Here's your **professional** `README.md` file with all the details you requested
 
 ---
 
-# **Imgur2 - Upload Images to Imgur Effortlessly**  
+# **lmgur_link - Upload Images to Imgur Effortlessly**  
 
-🚀 **Imgur2** is a simple and efficient Node.js package for uploading images to **Imgur**. It provides an **Express API** with an elegant **HTML web UI** for easy image uploads and sharing.
+🚀 **lmgur_link** is a simple and efficient Node.js package for uploading images to **Imgur**. It provides an **Express API** with an elegant **HTML web UI** for easy image uploads and sharing.
 
 ### ✨ **Features**  
 ✔ **Upload any image format** (JPG, PNG, GIF, etc.)  
@@ -19,12 +19,12 @@ Here's your **professional** `README.md` file with all the details you requested
 
 ### **1️⃣ Install the Package in Your Project**  
 ```sh
-npm install imgur2
+npm i imgur-link
 ```
 
 ### **2️⃣ Import and Use in Your Node.js Project**  
 ```javascript
-const { uploadToImgur } = require("imgur2");
+const { uploadToImgur } = require("imgur-link");
 
 async function testUpload() {
     const imgUrl = await uploadToImgur("path/to/image.jpg");
@@ -36,16 +36,16 @@ testUpload();
 
 ---
 
-## 🎯 **Using the `imgur2` NPM Package**  
+## 🎯 **Using the `imgur-link` NPM Package**  
 
 ### **Installation in Another Project**  
 ```sh
-npm install imgur2
+npm install imgur-link
 ```
 
 ### **Usage in Your Project**  
 ```javascript
-const { uploadToImgur } = require("imgur2");
+const { uploadToImgur } = require("imgur-link");
 
 async function testUpload() {
     const imgUrl = await uploadToImgur("path/to/image.jpg");
