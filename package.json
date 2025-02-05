@@ -1,18 +1,17 @@
 {
     "name": "imgur-link",
-    "version": "1.0.1",
-    "description": "A simple Node.js module for uploading images to Imgur",
+    "version": "1.0.3",
+    "description": "A simple package to upload images to Imgur and get the direct link.",
     "main": "index.js",
     "scripts": {
-        "start": "node index.js"
+      "test": "node index.js"
     },
-    "author": "ST | Sheikh Tamim",
+    "keywords": ["imgur", "upload", "image", "link"],
+    "author": "Sheikh Tamim",
     "license": "MIT",
     "dependencies": {
-        "axios": "^1.7.9",
-        "express": "^4.21.2",
-        "form-data": "^4.0.1",
-        "fs-extra": "^11.3.0",
-        "multer": "^1.4.5-lts.1"
+      "axios": "^1.4.0",
+      "form-data": "^4.0.0"
     }
-}
+  }
+  

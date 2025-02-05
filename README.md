@@ -27,11 +27,16 @@ npm i imgur-link
 const { uploadToImgur } = require("imgur-link");
 
 async function testUpload() {
-    const imgUrl = await uploadToImgur("path/to/image.jpg");
-    console.log("Imgur URL:", imgUrl);
+    try {
+        const imgUrl = await uploadToImgur("image.jpg");
+        console.log("Imgur URL:", imgUrl);
+    } catch (error) {
+        console.error("Error uploading image:", error);
+    }
 }
 
 testUpload();
+
 ```
 
 ---
@@ -48,11 +53,16 @@ npm install imgur-link
 const { uploadToImgur } = require("imgur-link");
 
 async function testUpload() {
-    const imgUrl = await uploadToImgur("path/to/image.jpg");
-    console.log("Imgur URL:", imgUrl);
+    try {
+        const imgUrl = await uploadToImgur("image.jpg");
+        console.log("Imgur URL:", imgUrl);
+    } catch (error) {
+        console.error("Error uploading image:", error);
+    }
 }
 
 testUpload();
+
 ```
 
 ---
@@ -107,13 +117,11 @@ POST /upload
 ## 💡 **Project Structure**  
 ```
 imgur_link/
-│── package.json
-│── index.js
-│── imgur2.js
-│── public/
-│   └── index.html
-│── uploads/ (Temporary image storage)
-```
+│── imgur2.js       # Handles image upload to Imgur
+│── index.js        # Main export file for the package
+│── package.json    # NPM package config
+│── README.md       # Documentation
+
 
 ---
 
