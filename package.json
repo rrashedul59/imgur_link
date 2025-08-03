@@ -1,6 +1,6 @@
 {
     "name": "imgur-link",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "A simple package to upload images to Imgur and get the direct link.",
     "main": "index.js",
     "scripts": {

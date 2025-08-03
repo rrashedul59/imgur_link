@@ -14,7 +14,7 @@ async function uploadToImgur(imagePath) {
 
         const response = await axios.post("https://api.imgur.com/3/image", form, {
             headers: {
-                Authorization: "Client-ID e4f58fc81daec99", // Change to your actual Client-ID
+                Authorization: "Client-ID d70305e7c3ac5c6", // Change to your actual Client-ID
                 ...form.getHeaders(),
             },
         });
